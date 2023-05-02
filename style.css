@@ -1,12 +1,48 @@
 /* Basic global reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    background-image: linear-gradient(#ffffff,#83869a);
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-image: linear-gradient(#ffffff, #83869a);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 10vh;
+}
+
+.logo {
+  width: 58px;
+  height: 15px;
+}
+
+.btn {
+  border: 1px solid #13183f;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.btn-dark {
+  background-color: #13183f;
+  color: #fff;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-info {
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
