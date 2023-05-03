@@ -6,43 +6,33 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   background-image: linear-gradient(#ffffff, #83869a);
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  height: 10vh;
-}
 
-.logo {
-  width: 58px;
-  height: 15px;
-}
 
-.btn {
-  border: 1px solid #13183f;
-  border-radius: 20px;
-  padding: 5px 15px;
-}
-
-.btn-dark {
-  background-color: #13183f;
-  color: #fff;
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.hero-info {
-}
-
-.hero-img {
-  width: 100%;
-  height: auto;
-}
+.header{}
+.logo{}
+.btn{}
+.btn-dark{}
+.hero{}
+.hero-info{}
+.hero-header{}
+.hero-text{}
+.hero-img-container{}
+.hero-img{}
+.courses{}
+.course-banner{}
+.course-banner-heading{}
+.course{}
+.course-image{}
+.course-heading{}
+.course-info{}
+.course-link{}
+.footer{}
