@@ -13,26 +13,67 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   background-image: linear-gradient(#ffffff, #83869a);
+  padding: 2rem;
 }
 
+.header {
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 27%;
+  height: 54%;
+}
 
+.btn {
+  border-radius: 20px;
+  border:none;
+}
 
-.header{}
-.logo{}
-.btn{}
-.btn-dark{}
-.hero{}
-.hero-info{}
-.hero-header{}
-.hero-text{}
-.hero-img-container{}
-.hero-img{}
-.courses{}
-.course-banner{}
-.course-banner-heading{}
-.course{}
-.course-image{}
-.course-heading{}
-.course-info{}
-.course-link{}
-.footer{}
+.btn-dark {
+  background-color: #13183f;
+  color: #fff;
+  width:140px;
+  height: 48px;
+  font-size: 16px;
+}
+.hero {
+}
+
+.hero-info {
+
+}
+
+.hero-header {
+  font-weight: 800;
+  font-size:40px;
+  color: #13183f;
+}
+.hero-text {
+}
+.hero-img-container {
+}
+
+.hero-img {
+  max-width: 100%;
+}
+
+.courses {
+}
+.course-banner {
+}
+.course-banner-heading {
+}
+.course {
+}
+.course-image {
+}
+.course-heading {
+}
+.course-info {
+}
+.course-link {
+}
+.footer {
+}
