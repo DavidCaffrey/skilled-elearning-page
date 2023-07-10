@@ -23,12 +23,7 @@
 
   <body>
     <header class="header">
-      <img
-        src="assets/logo-dark.svg"
-        alt="skilled logo"
-        class="logo"
-        
-      />
+      <img src="assets/logo-dark.svg" alt="skilled logo" class="logo" />
       <button class="btn btn-dark">Get Started</button>
     </header>
     <main>
@@ -43,16 +38,27 @@
         </div>
         <div class="hero-img-container">
           <picture>
-            <source media="(min-width: )" srcset="" type="image/">
-            <source media="(min-width: )" srcset="" type="image/">
-            <source media="(min-width: )" srcset="" type="image/">
+            <source
+              media="(max-width: 440px)"
+              srcset="assets/image-hero-mobile.webp"
+              type="image/"
+            />
+            <source
+              media="(max-width: 700px)"
+              srcset="assets/image-hero-tablet.webp"
+              type="image/"
+            />
+            <source
+              media="(min-width: 1100px)"
+              srcset="assets/image-hero-desktop.webp"
+              type="image/"
+            />
           </picture>
           <img
-            src="assets/image-hero-mobile.png"
+            src="assets/image-hero-mobile.webp"
             alt="woman working at laptop with a hot coffee"
             srcset=""
             class="hero-img"
-           
           />
         </div>
       </section>
