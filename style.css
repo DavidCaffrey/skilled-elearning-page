@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;800&display=swap");
+
 /* Basic global reset */
 
 * {
@@ -6,74 +8,23 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Colors */
+  /* #666ca3 */
+  /* #13183f */
+  /* #83869a */
+  /* #f74780 */
+  /* #ffa7c3 */
+  /* #fff */
+  /* GRADIENTS */
+  /* #f02aa6,#ff6f48 */
+  /* #4851ff,#f02aa6 */
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-image: linear-gradient(#ffffff, #83869a);
-  padding: 2rem;
-}
-
-.header {
-  height: 6vh;
-  display: flex;
-  justify-content: space-between;
-}
-.logo {
-  width: 27%;
-  height: 54%;
-}
-
-.btn {
-  border-radius: 20px;
-  border:none;
-}
-
-.btn-dark {
-  background-color: #13183f;
-  color: #fff;
-  width:140px;
-  height: 48px;
-  font-size: 16px;
-}
-.hero {
-}
-
-.hero-info {
-
-}
-
-.hero-header {
-  font-weight: 800;
-  font-size:40px;
-  color: #13183f;
-}
-.hero-text {
-}
-.hero-img-container {
-}
-
-.hero-img {
-  max-width: 100%;
-}
-
-.courses {
-}
-.course-banner {
-}
-.course-banner-heading {
-}
-.course {
-}
-.course-image {
-}
-.course-heading {
-}
-.course-info {
-}
-.course-link {
-}
-.footer {
 }
