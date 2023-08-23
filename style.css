@@ -28,3 +28,25 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+/* HEADER */
+
+/* HERO */
+
+.hero-desktop {
+  display: none;
+}
+
+.hero-tablet {
+  display: none;
+}
+
+.hero-mobile {
+  width: 100%;
+}
+
+/* ACTION */
+
+/* FOOTER */
+
+/* MEDIA QUERIES */
