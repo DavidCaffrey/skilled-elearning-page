@@ -10,12 +10,12 @@
 
 :root {
   /* Colors */
-  /* #666ca3 */
-  /* #13183f */
-  /* #83869a */
-  /* #f74780 */
-  /* #ffa7c3 */
-  /* #fff */
+  --clr-Blue-600: hsl(234, 25%, 52%) ;
+  --clr-Blue-900:hsl(233, 54%, 16%) ;
+  --clr-Grey: hsl(232, 10%, 56%) ;
+  --clr-Pink-600: hsl(341, 92%, 62%) ;
+  --clr-Pink-300: hsl(341, 100%, 83%) ;
+  --clr-White: hsl(0, 0%, 100%) ;
   /* GRADIENTS */
   /* #f02aa6,#ff6f48 */
   /* #4851ff,#f02aa6 */
