@@ -17,12 +17,15 @@
   --clr-Pink-300: hsl(341, 100%, 83%) ;
   --clr-White: hsl(0, 0%, 100%) ;
   /* GRADIENTS */
-  /* #f02aa6,#ff6f48 */
-  /* #4851ff,#f02aa6 */
+  --grad-Pink: linear-gradient(hsl(13, 100%, 64%),hsl(322,87%,55%)); 
+  --grad-Purple: linear-gradient(to bottom,var(--clr-grad-B-P, var(--clr-grad-P-B))); 
+  
+   --clr-grad-B-P:hsl(237,100%,64%) ;
+   --clr-grad-P-B: hsl(322,87%,55%) ;
 }
 
 html {
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 body {
@@ -30,8 +33,23 @@ body {
 }
 
 /* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* HERO */
+.btn{
+  color: var(--clr-White);
+  background: var(--clr-Blue-900);
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 40px;
+}
 
 .hero-desktop {
   display: none;
